@@ -1,6 +1,6 @@
 function searchf(){
   
-  var input, filter, table, tr, td, i, txtValue;
+  let input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("searchTerm");
   filter = input.value.toUpperCase();
   table = document.getElementById("data");
